@@ -6,6 +6,81 @@
     --card-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 10px;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.logo:hover{
+    color: #319173;
+    text-shadow: 0 0 25px #319173;
+    transform: scale(1.1);
+
+
+}
+
+span{
+    color: #319173;
+    font-style: oblique;
+}
+
+.navbar a{
+    font-size: 0.6rem;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent ;
+    transition: 0.3s ease;
+    padding: 0 0 5px 0;
+    text-decoration: none;
+    
+}
+
+.navbar a:hover, 
+.navbar a.active{
+    color: #319173;
+    border-bottom: 3px solid #319173;
+
+}
+.hire{
+    
+    background-color: #319173;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.hire:hover{
+    background-color: white;
+    box-shadow: 0 0 15px ;
+    
+
+}
+
 /* Base Styles */
 body {
     background-color: var(--light-bg);
@@ -23,6 +98,16 @@ body {
 }
 
 /* Introduction Section */
+
+.intro-section-mb-5{
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 8rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--card-shadow);
+}
+
+
 .intro-section .display-4 {
     color: #212529;
 }
@@ -33,6 +118,15 @@ body {
 }
 
 /* Services Section */
+
+.services-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--card-shadow);
+    margin: 2rem;
+}
 .service-item {
     transition: all 0.3s ease;
     border: 1px solid rgba(0,0,0,0.05);
