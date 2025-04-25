@@ -116,7 +116,10 @@ body {
     color: var(--secondary-color);
     font-weight: 700;
 }
-
+MY BIOGRAPHY {
+    color: var(--primary-color);
+    font-weight: 200;
+}
 /* Services Section */
 
 .services-section {
