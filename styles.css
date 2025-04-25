@@ -142,10 +142,20 @@ MY BIOGRAPHY {
 }
 
 /* Skills Section */
+.skills-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--card-shadow);
+    margin: 2rem;
+}
 .skill-card {
     background-color: white;
     box-shadow: var(--card-shadow);
     transition: all 0.3s ease;
+    
+    
 }
 
 .skill-card:hover {
@@ -185,12 +195,14 @@ MY BIOGRAPHY {
     .stat-number {
         font-size: 2.5rem;
     }
-    /* Footer Styles */
+}
+
+/* Footer Styles */
 .footer-section {
     background-color: rgba(248, 249, 250, 0.7);
     backdrop-filter: blur(10px);
 }
-
+   
 .social-links a {
     color: var(--secondary-color);
     transition: color 0.3s ease, transform 0.3s ease;
@@ -219,5 +231,4 @@ MY BIOGRAPHY {
 .stat-item:hover {
     background-color: white;
     box-shadow: var(--card-shadow);
-}
 }
