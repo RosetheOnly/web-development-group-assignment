@@ -1,0 +1,126 @@
+/* Custom Variables */
+:root {
+    --primary-color: #0d6efd;
+    --secondary-color: #6c757d;
+    --light-bg: #f8f9fa;
+    --card-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Base Styles */
+body {
+    background-color: var(--light-bg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Card Styles */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Introduction Section */
+.intro-section .display-4 {
+    color: #212529;
+}
+
+.web-de {
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+/* Services Section */
+.service-item {
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.service-item:hover {
+    background-color: white;
+    box-shadow: var(--card-shadow);
+    transform: translateY(-3px);
+}
+
+/* Skills Section */
+.skill-card {
+    background-color: white;
+    box-shadow: var(--card-shadow);
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+/* Success Section */
+.stat-item {
+    transition: all 0.3s ease;
+}
+
+.stat-item:hover .stat-number {
+    color: var(--primary-color);
+}
+
+.stat-number {
+    transition: color 0.3s ease;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.section-animate {
+    animation: fadeIn 0.6s ease forwards;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .display-4 {
+        font-size: 2.5rem;
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+    }
+    /* Footer Styles */
+.footer-section {
+    background-color: rgba(248, 249, 250, 0.7);
+    backdrop-filter: blur(10px);
+}
+
+.social-links a {
+    color: var(--secondary-color);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+    transform: translateY(-3px);
+}
+
+/* Success Work Section adjustments */
+.success-section {
+    background-color: white;
+    padding: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 3rem;
+}
+
+.stat-item {
+    background-color: var(--light-bg);
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+    background-color: white;
+    box-shadow: var(--card-shadow);
+}
+}

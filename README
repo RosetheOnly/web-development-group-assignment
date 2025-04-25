@@ -1,0 +1,34 @@
+# Portfolio Website
+
+This is a personal portfolio website for showcasing the work and skills of John Watson, a Lead UI Designer and Web Developer based in the UK. The website is built using HTML, CSS, and the Bootstrap framework for responsiveness and styling.
+
+## Features
+
+- **Introduction Section**: A brief introduction with a professional tagline and call-to-action buttons.
+- **Biography Section**: Detailed information about the designer, including name, email, location, and phone number.
+- **Services Section**: Highlights the services offered, such as Web Development, App Development, and Photography.
+- **Skills Section**: Showcases featured skills and expertise in areas like UI/UX Design and Branding Design.
+- **Responsive Design**: Fully responsive layout using Bootstrap to ensure compatibility across devices.
+
+## Technologies Used
+
+- **HTML5**: For structuring the content of the website.
+- **CSS3**: For custom styling and animations.
+- **Bootstrap 5**: For responsive design and prebuilt components.
+- **Font Awesome**: For icons used in the website.
+
+## How to Use
+
+1. Clone or download the repository to your local machine.
+2. Open the `index.html` file in your browser to view the website.
+3. Customize the content in the `index.html` and `styles.css` files as needed.
+
+## Folder Structure
+
+## Credits
+
+This portfolio website is designed for showcasing the work of John Watson. All content and design elements are tailored to represent his professional profile.
+
+## License
+
+This project is for personal use and demonstration purposes only.
