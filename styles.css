@@ -146,7 +146,7 @@ MY BIOGRAPHY {
     background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(10px);
     padding: 3rem;
-    border-radius: 0.5rem;
+    border-radius: 0.5 rem;
     box-shadow: var(--card-shadow);
     margin: 2rem;
 }
